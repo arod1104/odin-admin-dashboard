@@ -19,7 +19,7 @@ body {
     "sidebar header"
     "sidebar main-content";
   grid-template-columns: 300px 1fr;
-  grid-template-rows: 150px 1fr;
+  grid-template-rows: 170px 1fr;
   height: 100vh;
 }
 
@@ -75,6 +75,7 @@ nav .nav-item {
   /* margin-top: 36px; */
   gap: 16px;
   font-size: 1.5rem;
+  padding-left: 10px;
 }
 
 nav svg {
@@ -91,16 +92,128 @@ a {
 
 /* Header */
 .header {
-  /* outline: 2px solid red; */
-  grid-area: header;
+  /* grid-area: header; */
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header svg {
+  height: 1.5rem;
+  fill: #000;
+}
+
+header .search {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-start;
+  gap: 15px;
+  /* margin-left: 2rem; */
+}
+
+header input {
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+  background-color: #e2e7ee;
+  border: none;
 }
 
 .header-actions button {
   margin-left: 10px;
+}
+
+.header-top {
+  /* outline: 2px solid red; */
+  height: 50%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.header-top .profile-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin-right: 2rem; */
+  gap: 25px;
+}
+
+.profile-icons-name {
+  font-weight: 700;
+}
+
+.profile-picture {
+  /* outline: 2px solid blue; */
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  outline: 2px solid red;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: yellow;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.greeting-container {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.greeting-container img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.greeting p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.greeting p.user-name-handle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.crus-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.crus-btns button {
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  background-color: #468ecd;
+  color: #fff;
+  font-size: 20px;
+  width: 120px;
 }
 
 /* Main content */

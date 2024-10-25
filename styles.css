@@ -252,7 +252,7 @@ header input {
   border-left: 8px solid #e6b44b;
   height: 16vh;
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
   /* justify-content: space-between; */
 }
 

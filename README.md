@@ -2,6 +2,8 @@
 
 This is a simple admin dashboard page project part of the Intermediate HTML and CSS course from The Odin Project.
 
+### Live GitHub Page Link: https://arod1104.github.io/odin-admin-dashboard/
+
 # [Assignment](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
 ## Step 1: Set up and planning

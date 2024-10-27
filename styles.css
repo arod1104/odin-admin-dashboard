@@ -107,6 +107,7 @@ header .search {
   display: flex;
   flex-direction: row;
   align-self: center;
+  align-items: center;
   justify-content: flex-start;
   gap: 15px;
   /* margin-left: 2rem; */
